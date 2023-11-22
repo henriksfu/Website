@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Raleway';
+}
+
+.s1 {
+  height: 100vh;
+  width: 100%;
+  background: #000;
+  color: #fff;
+
+}
+
+.s1 .cont {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.s1 .cont nav {
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.s1 .cont nav .logo h1 {
+  font-size: 36px;
+  color: #fff;
+
+}
+
+.s1 .cont nav .logo h1 span {
+  font-size: 39px;
+  color: #ff6600;
+}
+
+.s1 .cont nav ul li{
+  display: inline-block;
+  padding: 0 25px;
+}
+
+.s1 .cont nav ul li a {
+  font-size: 15px;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.s1 .cont nav ul li a:hover {
+  font-size: 16px;
+  color: #ff6600;
+  transition: ease 0.3s;
+}
+
+.s1 .cont .contains-1 {
+  margin-top: 180px;
+}
+
+.s1 .cont .contains-1 p{
+  font-size: 19px;
+}
+
+.s1 .cont .contains-1 h2 {
+  padding-top: 10px;
+  font-size: 75px;
+  color: #fff;
+}
+
+.s1 .cont .contains-1 h2 span {
+  color: #ff6600;
+}
+
+.s1 .cont .contains-1 h5 {
+  padding-top: 10px;
+  font-size: 26px;
+}
+
+.s1 .cont .contains-1 .image {
+  position: absolute;
+
+  width: 100%;
+  margin-top: -150px;
+  margin-left: 870px;
+}
+
+.s1 .cont .contains-1 .image img {
+  position: absolute;
+  width: 320px;
+  height: 370px;
+  margin: auto;
+  border-radius: 50%;
+  border: 7px solid #ff6600;
+}
+
+.s1 .cont .paragraph {
+  font-size: 20px;
+  margin-top: 150px;
+}
+
+.s1 .cont .github {
+  margin-top: 200px;
+}
+
+.s1 .cont .github a {
+  color: #fff;
+  border: solid #ff6600;
+  padding: 7px;
+  border-radius: 15%;
+}
+
+.s1 .cont .github a:hover {
+  font-size: 16px;
+  color: #ff6600;
+  transition: ease 0.3s;
+}
+
+.s1 .cont .paragraph a {
+  color: #fff;
+  font-size: smaller
+}
+
+.s1 .cont .contains-1 .sfuimage {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  margin-left: 900px;
+  margin-top: -130px;
+}
